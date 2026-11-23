@@ -1,0 +1,12 @@
+# BOLA Manual Reference Results
+
+VAmPI commit: [f16052dce83f05847133ec98f01c5193a41de7d8]
+
+| Scenario | Observed result |
+|---|---|
+| Vulnerable: Alice reads own book | 200 + secret returned |
+| Vulnerable: Bob reads Alice's book | 200 + secret returned |
+| Secure: Alice reads own book | 200 + secret returned |
+| Secure: Bob reads Alice's book | 404 + secret not returned |
+
+Notes: None

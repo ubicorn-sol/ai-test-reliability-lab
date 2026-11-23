@@ -1,0 +1,10 @@
+.env
+.env.*
+**/.env
+**/.env.*
+.git
+.venv
+**/__pycache__
+.pytest_cache
+reports
+tests/test_offline_validation.py
